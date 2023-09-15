@@ -7,6 +7,7 @@
     <!-- DaisyUI CDN link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
     <header>
@@ -115,68 +116,93 @@
           </div>
 
           <!-- Fruit Category section -->
-          <section class="fruit-category w-3/4">
-            <div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+          <section class="fruit-category bg-white z-0 lg:-z-50">
+            <div class="flex justify-between w-4/5 mx-auto lg:-mt-16 lg:shadow">
+              <div>
+                <div class="card bg-base-100">
+                  <figure class="px-10 pt-10">
+                    <img src="/images/fruit1.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <p>Grape</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+              <div>
+                <div class="card bg-base-100">
+                  <figure class="px-10 pt-10">
+                    <img src="/images/fruit2.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <p>Orange</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+              <div>
+                <div class="card bg-base-100">
+                  <figure class="px-10 pt-10">
+                    <img src="/images/fruit3.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <p>Mango</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+              <div>
+                <div class="card bg-base-100">
+                  <figure class="px-10 pt-10">
+                    <img src="/images/fruit4.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <p>Strawberry</p>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+          
 
     </header>
     <main>
+      <!-- Countdown section -->
+      
+      <div class="count  container mt-16 mx-auto flex justify-between">
+        <div class="left">
+          <h2 class="text-[#121212] text-5xl font-extrabold mb-2">Deal of the day</h2>
+          <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class="right">
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col p-2 text-black-content">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col p-2 text-black-content">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col p-2 text-black-content">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col p-2 text-black-content">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:52;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
+    
     </main>
     <footer>
 
